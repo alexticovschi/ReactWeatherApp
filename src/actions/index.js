@@ -10,7 +10,7 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 // # then the url is created with a city and an ajax GET request is made with axios;
 // # axios returns a promise(data structure that doesn't actually yet contain the request data);
 export function fetchWeather(city) {
-	const url = `${ROOT_URL}&q=${city},us`;
+	const url = `${ROOT_URL}&q=${city},us&units=metric`;
 	// take the url with the particular search city and make a get request
 	const request = axios.get(url);
 
