@@ -1,4 +1,13 @@
+td, td {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
 .chart-container svg {
     height: 85px;
     width: 100%;
+}
+
+.input-group {
+    margin: 20px 0;
 }
