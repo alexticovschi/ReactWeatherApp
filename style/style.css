@@ -4,10 +4,15 @@ td, td {
 }
 
 .chart-container svg {
-    height: 85px;
+    height: 130px;
     width: 100%;
 }
 
 .input-group {
     margin: 20px 0;
+}
+
+td:first-of-type, td:first-of-type > div {
+    height: 150px;
+    width: 250px;
 }
